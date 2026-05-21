@@ -11,21 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EShop">
-
         <activity
-            android:name=".activity.MainActivity"
-            android:theme="@style/Theme.EShop.FullScreen"
+            android:name=".activity.SpiashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
+            android:name=".activity.MainActivity"
+            android:exported="true"/>
+
+        <activity
             android:name=".activity.MainActivity2"
-            android:exported="true">
-        </activity>
+            android:exported="true"/>
+
     </application>
 
 </manifest>
