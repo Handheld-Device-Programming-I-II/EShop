@@ -1,6 +1,10 @@
 package lk.jiat.eshop.activity;
 
+import android.os.Build;
 import android.os.Bundle;
+import android.view.WindowInsets;
+import android.view.WindowInsetsController;
+import android.view.WindowManager;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,12 +19,27 @@ public class SpiashActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EdgeToEdge.enable(this);
         setContentView(R.layout.activity_spiash);
+        /*EdgeToEdge.enable(this);
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
             return insets;
-        });
+        });*/
+
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.R){
+            getWindow().setDecorFitsSystemWindows(false);
+
+            WindowInsetsController controller = getWindow().getInsetsController();
+            if (controller != null){
+                controller.hide(WindowInsets.Type.systemBars() | WindowInsets.Type.navigationBars());
+            }
+        } else {
+            getWindow().setFlags(
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN,
+                    WindowManager.LayoutParams.FLAG_FULLSCREEN
+            );
+
+        }
     }
 }
