@@ -5,17 +5,6 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity">
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-
-        android:layout_marginTop="128dp"
-        android:text="Sample Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
-
+    tools:context=".activity.SpiashActivity">
 
 </androidx.constraintlayout.widget.ConstraintLayout>
