@@ -3,6 +3,9 @@ package lk.jiat.eshop.activity;
 import android.media.Image;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Looper;
+import android.view.View;
 import android.view.WindowInsets;
 import android.view.WindowInsetsController;
 import android.view.WindowManager;
@@ -56,7 +59,13 @@ public class SpiashActivity extends AppCompatActivity {
                 .override(300)
                 .into(imageView);
 
-
+        new Handler(Looper.getMainLooper())
+                .postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        findViewById(R.id.splashProgressBar).setVisibility(View.VISIBLE);
+                    }
+                }, 1000);
     }
 
 }
