@@ -12,8 +12,8 @@
     </group>
 
     <group>
-        <item android:title="Login"/>
-        <item android:title="LogOut"/>
+        <item android:title="@string/side_nav_login_title"/>
+        <item android:title="@string/side_nav_logout_title"/>
     </group>
 
 </menu>

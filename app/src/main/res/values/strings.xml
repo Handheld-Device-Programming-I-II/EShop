@@ -9,4 +9,6 @@
     <string name="side_nav_home_cart_title">Cart</string>
     <string name="side_nav_home_message_title">Message</string>
     <string name="side_nav_home_settings_title">Settings</string>
+    <string name="side_nav_login_title">Login</string>
+    <string name="side_nav_logout_title">LogOut</string>
 </resources>
