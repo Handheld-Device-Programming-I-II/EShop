@@ -66,6 +66,14 @@ public class SpiashActivity extends AppCompatActivity {
                         findViewById(R.id.splashProgressBar).setVisibility(View.VISIBLE);
                     }
                 }, 1000);
+
+        new Handler(Looper.getMainLooper())
+                .postDelayed(new Runnable() {
+                    @Override
+                    public void run() {
+                        findViewById(R.id.splashProgressBar).setVisibility(View.INVISIBLE);
+                    }
+                }, 5000);
     }
 
 }
