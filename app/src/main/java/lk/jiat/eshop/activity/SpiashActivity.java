@@ -43,9 +43,11 @@ public class SpiashActivity extends AppCompatActivity {
         ImageView imageView = findViewById(R.id.splashLogo);
 
         Picasso.get()
-                .load(R.drawable.ic_launcher_foreground)
+                .load(R.drawable.app_logo)
                 .resize(300, 300)
                 .into(imageView);
+
+
     }
 
 }
