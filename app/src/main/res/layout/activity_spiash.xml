@@ -33,8 +33,10 @@
         android:textSize="11sp"/>
 
     <ProgressBar
+        android:id="@+id/splashProgressBar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:visibility="invisible"
         android:layout_gravity="bottom|center_horizontal"
         android:layout_marginBottom="100dp"/>
 
