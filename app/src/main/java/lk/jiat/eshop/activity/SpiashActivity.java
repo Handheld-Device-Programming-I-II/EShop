@@ -14,6 +14,7 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
+import com.bumptech.glide.Glide;
 import com.squareup.picasso.Picasso;
 
 import lk.jiat.eshop.R;
@@ -41,10 +42,18 @@ public class SpiashActivity extends AppCompatActivity {
         setContentView(R.layout.activity_spiash);
 
         ImageView imageView = findViewById(R.id.splashLogo);
+        //imageView.setImageResource(R.drawable.app_logo);
 
-        Picasso.get()
+        /*Picasso.get()
                 .load(R.drawable.app_logo)
                 .resize(300, 300)
+                .into(imageView);
+        */
+
+        Glide.with(this)
+                .asBitmap()
+                .load(R.drawable.app_logo)
+                .override(300)
                 .into(imageView);
 
 
