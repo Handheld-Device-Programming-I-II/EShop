@@ -1,6 +1,6 @@
 package lk.jiat.eshop.activity;
 
-import android.media.Image;
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
@@ -13,16 +13,12 @@ import android.widget.ImageView;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.graphics.Insets;
-import androidx.core.view.ViewCompat;
-import androidx.core.view.WindowInsetsCompat;
 
 import com.bumptech.glide.Glide;
-import com.squareup.picasso.Picasso;
 
 import lk.jiat.eshop.R;
 
-public class SpiashActivity extends AppCompatActivity {
+public class SplashActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,6 +68,9 @@ public class SpiashActivity extends AppCompatActivity {
                     @Override
                     public void run() {
                         findViewById(R.id.splashProgressBar).setVisibility(View.INVISIBLE);
+                        Intent intent = new Intent(SplashActivity.this, MainActivity.class);
+                        startActivity(intent);
+                        finish();
                     }
                 }, 5000);
     }
