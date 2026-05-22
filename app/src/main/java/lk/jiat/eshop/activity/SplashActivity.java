@@ -55,6 +55,7 @@ public class SplashActivity extends AppCompatActivity {
                 .override(300)
                 .into(imageView);
 
+
         new Handler(Looper.getMainLooper())
                 .postDelayed(new Runnable() {
                     @Override
@@ -62,6 +63,7 @@ public class SplashActivity extends AppCompatActivity {
                         findViewById(R.id.splashProgressBar).setVisibility(View.VISIBLE);
                     }
                 }, 1000);
+
 
         new Handler(Looper.getMainLooper())
                 .postDelayed(new Runnable() {
