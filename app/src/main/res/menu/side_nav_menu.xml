@@ -3,7 +3,7 @@
 
     <group>
         <item
-            android:icon="@mipmap/ic_launcher"
+            android:icon="@drawable/home_24px"
             android:title="@string/side_nav_home_title"/>
         <item android:title="@string/side_nav_home_profile_title"/>
         <item android:title="@string/side_nav_home_orders_title"/>
