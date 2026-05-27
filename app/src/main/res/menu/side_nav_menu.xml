@@ -16,7 +16,9 @@
             android:icon="@drawable/favorite_24px"
             android:title="@string/side_nav_home_wishlist_title"/>
 
-        <item android:title="@string/side_nav_home_cart_title"/>
+        <item
+            android:icon="@drawable/shopping_cart_checkout_24px"
+            android:title="@string/side_nav_home_cart_title"/>
 
         <item
             android:icon="@drawable/business_messages_24px"
