@@ -20,7 +20,9 @@
             android:icon="@drawable/business_messages_24px"
             android:title="@string/side_nav_home_message_title"/>
 
-        <item android:title="@string/side_nav_home_settings_title"/>
+        <item
+            android:icon="@drawable/settings_24px"
+            android:title="@string/side_nav_home_settings_title"/>
 
     </group>
 
