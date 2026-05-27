@@ -5,14 +5,23 @@
         <item
             android:icon="@drawable/home_24px"
             android:title="@string/side_nav_home_title"/>
-        <item android:title="@string/side_nav_home_profile_title"/>
+
+        <item
+            android:icon="@drawable/person_24px"
+            android:title="@string/side_nav_home_profile_title"/>
+
         <item android:title="@string/side_nav_home_orders_title"/>
+
         <item android:title="@string/side_nav_home_wishlist_title"/>
+
         <item android:title="@string/side_nav_home_cart_title"/>
+
         <item
             android:icon="@drawable/business_messages_24px"
             android:title="@string/side_nav_home_message_title"/>
+
         <item android:title="@string/side_nav_home_settings_title"/>
+
     </group>
 
     <group>
