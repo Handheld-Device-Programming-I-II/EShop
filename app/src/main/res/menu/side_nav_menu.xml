@@ -25,7 +25,10 @@
     </group>
 
     <group>
-        <item android:title="@string/side_nav_login_title"/>
+        <item
+            android:icon="@drawable/login_24px"
+            android:title="@string/side_nav_login_title"/>
+
         <item android:title="@string/side_nav_logout_title"/>
     </group>
 
