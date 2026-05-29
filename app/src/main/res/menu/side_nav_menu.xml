@@ -3,6 +3,7 @@
 
     <group>
         <item
+            android:iconTint="@drawable/nav_custom_icon"
             android:icon="@drawable/home_24px"
             android:title="@string/side_nav_home_title"/>
 
