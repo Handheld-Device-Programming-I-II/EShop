@@ -16,6 +16,7 @@
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            app:menu="@menu/bottom_nav_menu"
             />
 
     </LinearLayout>
@@ -30,15 +31,6 @@
         app:itemIconSize="25dp"
         />
 
-    <!--<Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="64dp"
-
-        android:layout_marginTop="128dp"
-        android:text="Sample Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>-->
 
 
 </androidx.drawerlayout.widget.DrawerLayout>
