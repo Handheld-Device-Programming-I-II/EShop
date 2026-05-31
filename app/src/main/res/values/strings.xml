@@ -11,4 +11,5 @@
     <string name="side_nav_home_settings_title">Settings</string>
     <string name="side_nav_login_title">Login</string>
     <string name="side_nav_logout_title">LogOut</string>
+    <string name="bottom_nav_home_title">Home</string>
 </resources>
