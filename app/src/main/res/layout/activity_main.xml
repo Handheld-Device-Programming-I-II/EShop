@@ -10,7 +10,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        and/>
+        android:background="#009688"
+        android:orientation="vertical">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+    </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
         android:layout_width="match_parent"
