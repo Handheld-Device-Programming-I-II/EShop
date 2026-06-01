@@ -13,6 +13,10 @@
         android:layout_height="match_parent"
         android:background="#009688"
         android:orientation="vertical">
+        
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width=""
+            android:layout_height=""
 
         <androidx.fragment.app.FragmentContainerView
             android:layout_width="match_parent"
