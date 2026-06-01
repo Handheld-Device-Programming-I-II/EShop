@@ -15,4 +15,5 @@
     <string name="bottom_nav_category_title">Category</string>
     <string name="bottom_nav_cart_title">Cart</string>
     <string name="bottom_nav_profile_title">Profile</string>
+    <string name="search_hint">Search here</string>
 </resources>
