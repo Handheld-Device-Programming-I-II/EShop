@@ -18,6 +18,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="#4CAF50">
+            
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height=""
 
 
         </com.google.android.material.appbar.MaterialToolbar>
@@ -35,7 +39,6 @@
             app:labelVisibilityMode="labeled"
             app:menu="@menu/bottom_nav_menu"
             app:itemIconSize="25dp"/>
-
     </LinearLayout>
 
     <com.google.android.material.navigation.NavigationView
