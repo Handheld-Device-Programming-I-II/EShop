@@ -18,16 +18,15 @@
             android:layout_width="match_parent"
             android:background="#FFFFFF"
             android:layout_height="0dp"
-            android:layout_weight="1"/>
-
+            android:layout_weight="1" />
 
         <com.google.android.material.bottomnavigation.BottomNavigationView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            app:menu="@menu/bottom_nav_menu"
             app:itemIconTint="@color/nav_item_colors"
             app:labelVisibilityMode="labeled"
-            />
+            app:menu="@menu/bottom_nav_menu"
+            app:itemIconSize="25dp"/>
 
     </LinearLayout>
 
